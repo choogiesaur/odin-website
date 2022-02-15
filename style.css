@@ -17,6 +17,7 @@ body {
 .header-box {
     display: flex;
     width: 600px;
+    /* justify-self: center; */
     /* margin-bottom: auto; */
 }
 
@@ -76,6 +77,8 @@ button {
     color: #1f2937;
     font-size: 36px;
     font-weight: bold;
+    padding: 32px 0px;
+    /* margin-bottom: 64px; */
     /* height: 200px; */
     /* margin-bottom: auto; */
 }
@@ -84,7 +87,7 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    padding: 32px 0px;
+    /* padding: 32px 0px; */
 
 }
 
@@ -116,13 +119,21 @@ button {
 
 .gray-quote-bar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     background-color: #e5e7eb;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    padding: 64px 128px;
+    padding:128px 128px;
+}
+
+.author {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
 }
 
 .white-button-bar {
@@ -133,8 +144,6 @@ button {
     color: #1f2937;
     height: 200px;
 }
-
-
 
 .footer {
     display: flex;
